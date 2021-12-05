@@ -4,6 +4,9 @@
     <body id="page-top" class="index">
     {% include nav.html %}
     {% include header.html %}
+    {% if site.comingsoon == true %}
+    {% include coming_soon.html %}
+    {% else %}
     {% include portfolio_grid.html %}
     {% include about.html %}
 
@@ -13,6 +16,8 @@
     {% include contact_disqus.html %}
     {% else %}
     {% include contact.html %}
+    {% endif %}
+    
     {% endif %}
 
     {% include footer.html %}
