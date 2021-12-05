@@ -186,6 +186,10 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+p {
+  font-size: 1.25em;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
