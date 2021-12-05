@@ -29,8 +29,8 @@ comingsoon: true
 color:
   primary: 390A84 #80B3FF
   primary-rgb: "57, 10, 132" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: 2D848A #FD6E8A
+  secondary-dark: 00120B #A2122F
 
 # Footer settings
 footer:
